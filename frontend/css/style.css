@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    background-color: rgb(194, 186, 186);
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+nav a{
+        margin: 0 2rem; 
+}
