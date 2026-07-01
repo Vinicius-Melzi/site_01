@@ -1,13 +1,95 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    color: whitesmoke;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
     background-color: rgb(194, 186, 186);
-    text-decoration: none;
-    font-size: 1.2rem;
+    color: #222222;
     text-align: center;
+    padding: 2rem;
+}
+
+
+nav{
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
 }
 
 nav a{
-        margin: 0 2rem; 
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 2rem;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color: #00bcd4;
+}
+
+
+h1{
+    margin-bottom: 1.5rem;
+    color: #111;
+}
+
+article{
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+label{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+
+button{
+    width: 100%;
+    margin-top: 1.5rem;
+    background-color: #222;
+    color: #00ff00; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #444;
+}
+
+
+#resposta{
+    margin-top: 1.5rem;
+    font-weight: bold;
+    color: #b89da6;
+}
+
+footer{
+    margin-top: 3rem;
+    color: #555;
 }
